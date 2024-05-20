@@ -8,4 +8,6 @@ let you = {
     city: shahar,
 };
 
-console.log(you)
+for (let key in you){
+    console.log(you[key])
+}
